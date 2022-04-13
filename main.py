@@ -6,6 +6,15 @@ import PySimpleGUI as app
 # PSG Color Theme
 app.theme("DefaultNoMoreNagging")
 
+def generate():
+    Token = random.randit(1,1000)
+#Placeholder loop, final one will append to .json list
+    while True:
+        if Token not in usedTokens:
+            usedTokens.append[Token]
+        else:
+            break
+
 # Layout of Elements
 layout = [
     [app.Text('')],
