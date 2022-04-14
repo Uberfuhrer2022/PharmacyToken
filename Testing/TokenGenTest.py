@@ -27,11 +27,11 @@ def TokenCreate():
     assert data2 == data
 
     # writing data to file
-    with open('test_data.json', 'w') as f:
+    with open('db_Tokens.json', 'w') as f:
         json.dump(data, f)
 
     # reading data from file
-    with open('test_data.json') as f:
+    with open('db_Tokens.json') as f:
         data3 = json.load(f)
     assert data3 == data
 
