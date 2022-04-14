@@ -1,7 +1,8 @@
 from ctypes.wintypes import SIZE
 from tkinter import CENTER, Scale
 import PySimpleGUI as app
-
+import random
+import json
 
 # PSG Color Theme
 app.theme("DefaultNoMoreNagging")
