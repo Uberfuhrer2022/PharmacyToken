@@ -5,7 +5,6 @@ from ctypes.wintypes import SIZE
 from lib2to3.pgen2.token import NEWLINE
 from tkinter import CENTER, Scale
 import PySimpleGUI as app
-from fastapi import FastAPI
 
 
 # PSG Color Theme
